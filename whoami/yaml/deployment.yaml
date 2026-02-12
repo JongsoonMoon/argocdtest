@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: whoami
-        image: harbor.mds.com:30408/cloudmds/whoami:v1
+        image: docker.io/traefik/whoami
         ports:
         - containerPort: 80
+
